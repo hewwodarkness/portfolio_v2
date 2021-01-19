@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="hewwodarkness's Portfolio">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- <div id="video-bg">
+    <video autoplay muted loop id="myVideo">
+        <source src="https://aimsharp.net/wp-content/uploads/2020/09/AIMSHARP_FULL.mp4" type="video/mp4">
+    </video>
+</div> -->
+    <div class="nav">
+        
+
+    </div>
+
+    <div class="intro">
+
+        <div class="avatar">
+            <img class="pfp" src="https://avatars0.githubusercontent.com/u/66019326?s=460&u=ba3061486ed84b4acc3745cb15d6f2af3aec2b97&v=4">
+            <div class="nickname">
+                hewwodarkness
+            </div>
+            <div class="nicknameinfo">
+                Web Developer :)
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class=project>
+                <div class="nickname">
+                    Projects
+                </div>
+                <div class="data">
+                    <div>
+                        <div class="nickname">
+                            CS:GO Player settings list
+                        </div>
+                    </div>
+
+                    <div class="deviceslist">
+                        <div class="view">
+                            <img class="devices" src="img/1.png">
+                            <img class="devices" src="img/2.png">
+                            <img class="devices" src="img/1.png">
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <div class="planguages">
+                            <div class="planguage">
+                                <div class="planguageicon html"></div>
+                                <div class="pnickname">
+                                    HTML
+                                </div>
+                            </div>
+
+                            <div class="planguage">
+                                <div class="planguageicon css"></div>
+                                <div class="pnickname">
+                                    CSS
+                                </div>
+                            </div>
+
+                            <div class="planguage">
+                                <div class="planguageicon js"></div>
+                                <div class="pnickname">
+                                    JavaScript
+                                </div>
+                            </div>
+
+                            <div class="planguage">
+                                <div class="planguageicon php"></div>
+                                <div class="pnickname">
+                                    PHP
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script type="module">
+        import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+    </script>
+    <script>
+        await octokit.request('GET /orgs/{org}/projects', {
+            org: 'org',
+            mediaType: {
+                previews: [
+                'inertia'
+                ]
+            }
+            })
+    </script>
+</body>
+
+    
